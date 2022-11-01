@@ -1,14 +1,14 @@
 :root {
     --blanco: #ffffff;
-    --primario: #FFC107;
+    --primario: #93bff8;
     --secundario: #0097A7;
-    --gris: #757575;
+    --gris: #413e3e;
     --oscuro: #212121;
 }
 html {
     box-sizing: border-box;
     min-height: 100%;
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -125,6 +125,12 @@ h3 {
 }
 .boton:hover{
     cursor: pointer;
+}
+.carrusel {
+    display: flex;
+    justify-content: center;
+    min-width: 90%;
+    /* height: 300px; */
 }
 .servicios {
     scroll-snap-align: center;
