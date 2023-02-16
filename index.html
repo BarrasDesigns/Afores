@@ -23,7 +23,7 @@
     <div class=" nav-bg">
         <nav class="navegacion contenedor">
             <a href="./index.html">Inicio</a>
-            <a href="./html/tarjetavirtual.html">Acerca de Mí</a>
+            <!-- <a href="./html/tarjetavirtual.html">Acerca de Mí</a> -->
             <a href="#servicios">Mis Servicios</a>
             <a href="#contacto">Contacto</a>
         </nav>
@@ -50,117 +50,171 @@
 
         <div class="contenedor sombra">
 
-            <h2 id="#servicios">Mis Servicios</h2>
-            <div class="servicios">
-                <div class="servicio">
-                    <h3>Asesoría de Afore</h3>
-                    <div class="iconos">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <circle cx="9" cy="7" r="4" />
-                            <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                            <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
-                          </svg>
-                    </div>
-                    <p>Asesoría de acuerdo a tus necesidades y a la situación sobre tu cuenta individual de Afore.</p>
-                </div>
+            <section>
+                <div id="servicios">
 
-                <section>
-                    <div class="servicio">
-                        <h3>Asesoría previsional de IMSS e ISSSTE</h3>
-                        <div class="iconos">
+                    <h2>Mis Servicios</h2>
+                    <div class="container">
 
-                            <!-- https://tablericons.com/ -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-bank" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <line x1="3" y1="21" x2="21" y2="21" />
-                                <line x1="3" y1="10" x2="21" y2="10" />
-                                <polyline points="5 6 12 3 19 6" />
-                                <line x1="4" y1="10" x2="4" y2="21" />
-                                <line x1="20" y1="10" x2="20" y2="21" />
-                                <line x1="8" y1="14" x2="8" y2="17" />
-                                <line x1="12" y1="14" x2="12" y2="17" />
-                                <line x1="16" y1="14" x2="16" y2="17" />
-                              </svg>
-                            
-                        </div>
-                        <p>Asesoría personalizada de tu situación actual.</p>
-                    </div>
-                </section>
+                        <div class="tarjeta">
+                            <h2>Asesoría de Afore</h2>
 
-                <section>
-                    <div class="servicio">
-                        <h3>Asesoría de pensiones</h3>
-                        <div class="iconos">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-old" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M11 21l-1 -4l-2 -3v-6" />
-                                <path d="M5 14l-1 -3l4 -3l3 2l3 .5" />
-                                <circle cx="8" cy="4" r="1" />
-                                <path d="M7 17l-2 4" />
-                                <path d="M16 21v-8.5a1.5 1.5 0 0 1 3 0v.5" />
-                              </svg>
+                            <p>Asesoría de acuerdo a tu cuenta individual de afore.</p>
                         </div>
-                        <p>Te guiamos para que completes tu pensión.</p>
-                    </div>
-                </section>
-            </div>
-            <!-- 
-            <div class="clientes" id="#clientes">
-                <h3>Mis Clientes</h3>
 
-            </div> -->
-            <div class="carrusel">
+                        <div class="tarjeta">
+                            <h2>Asesoría previsional de IMSS e ISSSTE</h2>
 
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./img/carrusel1.jpg" class="d-block w-100" alt="carrusel1">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>¿Qué es la pensión?</h5>
-                                <p>La pensión es una prestación económica que un trabajador va acumulando durante el tiempo que cotice ante el IMSS, el ISSSTE o en cualquier dependencia que esté laborando, que por ley tiene derecho a recibir ya que esta le permitirá disfrutar de una renta mensual de acuerdo al monto que haya obtenido de las aportaciones realizadas durante el tiempo que laboró.</p>
-                            </div>
+                            <p>Asesoría personalizada de tu situación actual sobre tu cuenta individual.</p>
                         </div>
-                        <div class="carousel-item">
-                            <img src="./img/carrusel2.jpg" class="d-block w-100" alt="carrusel2">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>¿Qué es una afore?</h5>
-                                <p>Es una entidad financiera dedicada de manera exclusiva y profesional a administrar las cuentas individuales de ahorro para el retiro de los trabajadores.</p>
-                            </div>
+
+                        <div class="tarjeta">
+                            <h2>Asesoría de pensiones</h2>
+
+                            <p>Te guiamos para que completes tu pensión.</p>
                         </div>
-                        <div class="carousel-item">
-                            <img src="./img/carrusel3.jpg" class="d-block w-100" alt="carrusel3">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Nuestros Servicios</h5>
-                                <p>Asesoría de acuerdo a tus necesidades y a la situación sobre tu cuenta individual de Afore, atención personalizada en el cálculo de pensión de acuerdo a los años laborados que se trabajaró, existen diferentes tipos de pensión dependiendo tu situación.</p>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
-            </div>
+            </section>
 
+            <section>
+                <div class="preguntas">
+                    <div class="servicio">
+                        <h3>¿Sabes cuáles son los dos tipos de régimen de pensión que existen en México?</h3>
+                        <div class="iconos">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users"
+                                width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="servicio">
+                        <h3>¿Sabes por cuál de las dos te vas a pensionar?</h3>
+                        <div class="iconos">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users"
+                                width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="servicio">
+                        <h3>¿Sabes con cuánto te vas a pensionar?</h3>
+                        <div class="iconos">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users"
+                                width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="servicio">
+                        <h3>¿Sabes qué podrías hacer para no perder tus
+                            derechos de pensión? si dejas de cotizar por un tiempo</h3>
+                        <div class="iconos">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users"
+                                width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="servicio">
+                        <h3>En caso de incapacidad o fallecimiento, ¿tú o tus familiares saben cómo aprovechar
+                            los recursos de tu cuenta individual?</h3>
+                        <div class="iconos">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users"
+                                width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <section>
+
+                <div class="carrusel">
+
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/carrusel1.jpg" class="d-block w-100" alt="carrusel1">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>¿Qué es la pensión?</h5>
+                                    <p>La pensión es una prestación económica que un trabajador va acumulando durante el
+                                        tiempo que cotice ante el IMSS, el ISSSTE o en cualquier dependencia que esté
+                                        laborando, que por ley tiene derecho a recibir ya que esta le permitirá
+                                        disfrutar de
+                                        una renta mensual de acuerdo al monto que haya obtenido de las aportaciones
+                                        realizadas durante el tiempo que laboró.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/carrusel2.jpg" class="d-block w-100" alt="carrusel2">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>¿Qué es una afore?</h5>
+                                    <p>Es una entidad financiera dedicada de manera exclusiva y profesional a
+                                        administrar
+                                        las cuentas individuales de ahorro para el retiro de los trabajadores.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/carrusel3.jpg" class="d-block w-100" alt="carrusel3">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>Nuestros Servicios</h5>
+                                    <p>Asesoría de acuerdo a tus necesidades y a la situación sobre tu cuenta individual
+                                        de
+                                        Afore, atención personalizada en el cálculo de pensión de acuerdo a los años
+                                        laborados que se trabajaró, existen diferentes tipos de pensión dependiendo tu
+                                        situación.</p>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-
 
         <div id="contacto" class="contacto">
             <h2>Contacto</h2>
@@ -200,7 +254,6 @@
     <footer class="footer">
         <p>Barras Designs. Todos los derechos Reservados.</p>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
