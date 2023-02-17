@@ -222,7 +222,7 @@ section h2 {
 .tarjeta:nth-child(2) {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../img/IMSS_ISSSTE.jpg");
+    background-image: url("../img/ImssIssste.png");
     background-position: center center;
     -webkit-filter: blur(2px);
     transition: 1s ease;
@@ -240,7 +240,7 @@ section h2 {
 .tarjeta:nth-child(3) {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../img/3.jpeg");
+    background-image: url("../img/pension.jpg");
     background-position: center center;
     -webkit-filter: blur(2px);
     transition: 1s ease;
